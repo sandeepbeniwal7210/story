@@ -1,0 +1,19 @@
+ git commit -am "new file add"
+  527  git log --oneline
+  528  git reset HEAD^
+  529  git log --oneline
+  530  git reset --soft HEAD^
+  531* git reset --soft
+  532  git log --oneline
+  533  git add thirsty_crow.txt
+  534  git status
+  535  git commit --amend -m "looking for water"
+  536  git log
+  537  git commit -am "could not find water"
+  538  git log
+  539  git commit -am "lost all hope"
+  540  git log
+  541  git log --oneline
+  542  git log --oneline --graph
+  543  git status
+  544  git checkout -- thirsty_crow.txt
